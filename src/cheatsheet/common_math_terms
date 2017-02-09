@@ -1,0 +1,17 @@
+The "mean" is the "average"
+The "median" is the "middle" value in the list of numbers
+The "mode" is the value that occurs most often. If no number in the list is repeated, then there is no mode for the list.
+The "range" of a list a numbers is just the difference between the largest and smallest values.
+
+
+
+Find the mean, median, mode, and range for the following list of values:
+13, 18, 13, 14, 13, 16, 14, 21, 13
+
+mean: 15
+median: 14
+mode: 13
+range: 8
+
+The largest value in the list is 21, and the smallest is 13, so the range is 21 – 13 = 8.
+
