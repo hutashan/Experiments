@@ -2,9 +2,7 @@ package stack;
 
 import java.util.Stack;
 
-/**
- * Created by parmana on 1/26/17.
- */
+
 public class StackWithMaxMin extends Stack<Integer> {
 
 
