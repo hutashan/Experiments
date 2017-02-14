@@ -1,8 +1,6 @@
 package stringex;
 
-/**
- * Created by Narendra on 1/19/17.
- */
+
 public class StringReverse {
 
     public static void main(String[] args) {
