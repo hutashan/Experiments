@@ -1,5 +1,7 @@
 package simpleprob;
 
+import java.util.List;
+import java.util.ArrayList;
 import java.util.Random;
 
 /**
@@ -8,7 +10,7 @@ import java.util.Random;
 public class Gcd {
 
     public static void main(String[] args) {
-
+      List l= new ArrayList();
        // System.out.println(new Random().nextInt(5));
        Random rn= new Random();
         rn.setSeed(10);
