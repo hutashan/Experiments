@@ -6,7 +6,7 @@ public class RotateMatrix {
 
     public static void main(String[] args) {
          int counter=0;
-        int matrix_size=3;
+        int matrix_size=4;
         int m[][] = new int[matrix_size][matrix_size];
         str="";
         for(int i=0;i<matrix_size;i++){
@@ -17,8 +17,6 @@ public class RotateMatrix {
             }
 
         }
-
-
         System.out.println("Original array");
         for(int i=0;i<matrix_size;i++){
 
