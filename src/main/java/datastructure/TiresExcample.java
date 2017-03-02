@@ -2,9 +2,7 @@ package datastructure;
 
 import java.util.HashMap;
 
-/**
- * Created by parmana on 2/22/17.
- */
+
 public class TiresExcample {
      TriesNode root;
 
