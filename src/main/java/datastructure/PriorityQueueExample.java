@@ -11,8 +11,8 @@ public class PriorityQueueExample {
 
     public static void main(String[] args) {
 
-        Queue<Integer> queue=new PriorityQueue(new Comparator<Integer>() {
-            public int compare(Integer o1, Integer o2) {
+      /*  Queue<Integer> queue=new PriorityQueue(new Comparator<Integer>() {
+             public int compare(Integer o1, Integer o2) {
                 return o2.compareTo(o1); // Max heap
                // return o1.compareTo(o2); // min heap
             }
@@ -28,7 +28,7 @@ public class PriorityQueueExample {
         for(int i:queue){
             System.out.println(i);
         }
-        System.out.println(queue.toString());
+        System.out.println(queue.toString());*/
     }
 
 }
