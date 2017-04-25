@@ -5,9 +5,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * Created by v708178 on 4/20/17.
- */
 public class PrintallSubarrays {
     private static void insert(Map<Integer, ArrayList> hashMap,
                                Integer key, Integer value)
