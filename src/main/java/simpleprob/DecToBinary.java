@@ -7,7 +7,7 @@ public class DecToBinary {
 
     public static void main(String[] args) {
         // read in the command-line argument
-        int n = 5;//Integer.parseInt(args[0]);
+        int n = 2;//Integer.parseInt(args[0]);
 
         // set power to the largest power of 2 that is <= n
         int power = 1;
