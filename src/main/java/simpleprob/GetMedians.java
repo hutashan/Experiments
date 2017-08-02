@@ -9,7 +9,10 @@ import java.util.PriorityQueue;
 public class GetMedians {
 
     public static double[] getMedians(int[] array){
-        PriorityQueue<Integer> lower = new PriorityQueue<Integer>(new Comparator<Integer>() {
+
+
+        PriorityQueue<Integer> lower = new PriorityQueue<Integer> (100,
+                new Comparator<Integer>() {
             public int compare(Integer o1, Integer o2) {
                 return -1*o1.compareTo(o2);
             }
@@ -28,6 +31,11 @@ public class GetMedians {
     }
 
     public static void addNumber(PriorityQueue<Integer> higher,PriorityQueue<Integer> lower,int number){
+        if(lower.size()==0 || number< lower.peek()){
+            lower.add(number);
+        }else{
+            higher.add(number);
+        }
 
     }
 
@@ -54,5 +62,7 @@ public class GetMedians {
         }
 
     }
+
+
 
 }
