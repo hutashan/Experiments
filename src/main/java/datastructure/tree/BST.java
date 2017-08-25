@@ -10,7 +10,7 @@ public class BST {
     static class Node {
         int key;
         String data;
-        Node left, right;
+      public  Node left, right;
 
         public Node(int key, String data) {
             this.data = data;
@@ -19,7 +19,8 @@ public class BST {
     }
 
 
-    Node root;
+
+    public Node root;
 
     Node getRoot() {
         return root;
