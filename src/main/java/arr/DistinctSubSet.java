@@ -3,9 +3,7 @@ package arr;
 import java.util.Arrays;
 import java.util.Stack;
 
-/**
- * Created by parmana on 8/11/17.
- */
+
 public class DistinctSubSet {
 
    static Stack<Integer> st = new Stack<Integer>();

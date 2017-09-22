@@ -1,8 +1,6 @@
 package arr;
 
-/**
- * Created by parmana on 9/14/17.
- */
+
 public class FindMaximumContSeqOfOne {
 
     public static void main(String[] args) {

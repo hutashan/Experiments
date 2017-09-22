@@ -2,9 +2,7 @@ package arr;
 
 import ThreadDemo.MyThread1;
 
-/**
- * Created by parmana on 9/17/17.
- */
+
 
 public class MaximumCircularArraySum {
 

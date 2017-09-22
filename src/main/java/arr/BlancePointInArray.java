@@ -5,6 +5,7 @@ package arr;
  */
 public class BlancePointInArray {
 
+
     public static void main(String[] args) {
 
         int [] aa ={1,2,7,10,2,8};

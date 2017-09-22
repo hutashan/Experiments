@@ -1,5 +1,6 @@
 package arr;
 
+
 class findDuplicate
 {
     /*

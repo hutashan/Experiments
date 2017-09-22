@@ -2,9 +2,7 @@ package arr;
 
 import java.util.HashMap;
 
-/**
- * Created by parmana on 9/9/17.
- */
+
 public class FindFrequncy {
 
     static HashMap<Integer,Integer> map= new HashMap<Integer,Integer>();

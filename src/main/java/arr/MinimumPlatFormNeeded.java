@@ -2,9 +2,7 @@ package arr;
 
 import java.util.Arrays;
 
-/**
- * Created by parmana on 9/11/17.
- */
+
 
 // find the minimum platoform needed in the stattion so to avoid any delay in arriavl any train
 public class MinimumPlatFormNeeded {

@@ -2,6 +2,7 @@ package arr;
 
 public class CircularArray {
 
+
     int[] circular ;
     int N;
     int f, r,size =0;

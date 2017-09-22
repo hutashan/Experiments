@@ -7,7 +7,6 @@ public class BalacePoint {
 
 
 
-
     public static void main(String a[]){
         int[] arr ={1,2,7,10,8,2,-10,-1,11};
         test(arr);

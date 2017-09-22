@@ -2,9 +2,6 @@ package arr;
 
 import java.util.List;
 
-/**
- * Created by parmana on 9/9/17.
- */
 public class LongestDecreaseSubSequence {
 
     public static void main(String[] args) {

@@ -1,8 +1,6 @@
 package arr;
 
-/**
- * Created by parmana on 9/13/17.
- */
+
 public class MaximumProdcutSubArray {
 
 

@@ -1,8 +1,6 @@
 package arr;
 
-/**
- * Created by parmana on 9/9/17.
- */
+
 public class OddElementOccuring {
 
 

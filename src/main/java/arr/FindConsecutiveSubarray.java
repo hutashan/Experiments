@@ -1,8 +1,5 @@
 package arr;
 
-/**
- * Created by parmana on 9/18/17.
- */
 
 public class FindConsecutiveSubarray {
 

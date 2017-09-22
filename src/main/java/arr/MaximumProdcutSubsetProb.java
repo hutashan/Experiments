@@ -2,9 +2,7 @@ package arr;
 
 import java.util.Stack;
 
-/**
- * Created by parmana on 9/9/17.
- */
+
 public class MaximumProdcutSubsetProb {
 
     static  int max=Integer.MIN_VALUE;
