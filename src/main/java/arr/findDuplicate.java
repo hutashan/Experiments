@@ -1,5 +1,6 @@
 package arr;
 
+
 class findDuplicate
 {
     /*
@@ -40,10 +41,28 @@ class findDuplicate
         return duplicate;
     }
 
+    public static int findup(int[] arr){
+
+        int xor=0;
+        for(int i:arr) {
+            xor ^= i;
+            System.out.println(xor);
+        }
+
+        for(int i=1;i<arr.length;i++) {
+            xor ^= i;
+            System.out.println(xor);
+        }
+
+        return xor;
+
+    }
+
+
     public static void main (String[] args)
     {
         int arr[] = { 1, 2, 3, 4, 2 };
 
-        System.out.println("Duplicate element is " + findDuplicate(arr));
+        System.out.println("Duplicate element is " + findup(arr));
     }
 }

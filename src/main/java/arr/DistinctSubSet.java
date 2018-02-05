@@ -1,33 +1,47 @@
 package arr;
+import java.util.Arrays;
+import java.util.Stack;
 
-
-import scala.Char;
-import scala.collection.mutable.Stack;
 
 public class DistinctSubSet {
-    public static void main(String[] arg){
-        int[] c = {1,2,3};
 
-        findPowerSet(c, new Stack<Integer>(),2 );
+    static Stack<Integer> st = new Stack<Integer>();
+
+    public static void main(String[] args) {
+
+        int[] arr = {1, 2, 3};
+        Arrays.sort(arr);
+        findSet(arr, st, arr.length - 1);
+
 
     }
-    static void findPowerSet(int[] s, Stack<Integer> stack, int i){
-        if (i<=0){
-            System.out.println(stack.toString());
+
+    public static void print() {
+        for (int i : st) {
+            System.out.print(i + " ");
+        }
+
+    }
+
+    public static void findSet(int[] arr, Stack<Integer> st, int i) {
+
+
+        if (i < 0) {
+            print();
+            System.out.println();
             return;
         }
-        stack.push(s[i]);
-        findPowerSet(s,stack,i-1);
-        stack.pop();
-        while(s[i]==s[i-1]){
-        i--;
+
+        st.push(arr[i]);
+        findSet(arr, st, i - 1);
+        st.pop();
+        System.out.println("before while " + i);
+        while (i >= 1 && arr[i] == arr[i - 1]) {
+            i--;
         }
-        findPowerSet(s,stack,i-1);
+        findSet(arr, st, i - 1);
+
     }
-    static  void printStack(Stack<Integer> sc){
-        for (int i=0;i<sc.length();i++){
-            System.out.println(sc.pop());
-        }
-    }
+
 
 }
