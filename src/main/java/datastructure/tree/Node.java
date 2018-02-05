@@ -1,8 +1,6 @@
 package datastructure.tree;
 
-/**
- * Created by v708178 on 8/25/17.
- */
+
 public
     class Node {
         int key;

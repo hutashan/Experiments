@@ -45,7 +45,7 @@ public class BalacePoint {
         System.out.println(leftSum.toString());
         for(int i=0;i<leftSum.length;i++){
             if (leftSum[i]==rightSum[i]){
-                System.out.println(i);
+                System.out.println(leftSum[i] +"   "+ i);
             }
         }
 

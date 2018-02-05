@@ -9,11 +9,28 @@ import java.util.TreeMap;
 public class StringPermutation {
     public static void main(String args[]) {
         StringPermutation sp = new StringPermutation();
-        List<String> ls = sp.permute("AABC".toCharArray());
+      //  sp.permute1("AABC".toCharArray(),"");
+
+         List<String> ls = sp.permute("AABC".toCharArray());
         for (String l : ls) {
             System.out.println( l);
         }
     }
+    public void permute1(char input[],String res) {
+        if (res.length()==input.length){
+            System.out.println(res);
+            return;
+        }
+
+        for (int i=0;i<input.length;i++){
+            while((i+1)<input.length && input[i]==input[i+1]){
+                i++;
+            }
+            permute1(input,res+input[i]);
+        }
+
+    }
+
 
     public List<String> permute(char input[]) {
 

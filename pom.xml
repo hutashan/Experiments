@@ -30,7 +30,9 @@
             <artifactId>scala-reflect</artifactId>
             <version>${scala.version}</version>
         </dependency>
-            </dependencies>
+
+
+    </dependencies>
     <build>
         <plugins>
 

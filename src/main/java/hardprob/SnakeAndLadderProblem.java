@@ -3,9 +3,7 @@ package hardprob;
 import java.util.LinkedList;
 import java.util.Queue;
 
-/**
- * Created by parmana on 5/24/17.
- */
+
 public class SnakeAndLadderProblem {
 
     public static class Qentry{

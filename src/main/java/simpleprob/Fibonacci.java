@@ -1,7 +1,7 @@
 package simpleprob;
 
 /**
- * Created by parmana on 2/1/17.
+ * Complexity is o(2power N)
  */
 public class Fibonacci {
 
