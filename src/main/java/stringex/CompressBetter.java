@@ -7,6 +7,7 @@ public class CompressBetter {
         System.out.println(compress("aabbxv"));
     }
     public static String compress(String str) {
+
         char[] arr = str.toCharArray();
         int i=0;
         char prev = arr[i];
