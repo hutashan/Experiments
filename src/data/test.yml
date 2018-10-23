@@ -1,0 +1,6 @@
+extraction_fields:
+          host:
+             device_category : device_category
+             user_type: entity_user_type
+          user:
+              user_type: entity_user_type

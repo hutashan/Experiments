@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 public class MinWindow {
     public static void main(String arg[]){
-    String s = "ADOBECBAODEBANC", t = "ABC";
+    String s = "ADOBECODEBANC", t = "ABC";
         System.out.println(new MinWindow().minWindow(s,t));
 
     }

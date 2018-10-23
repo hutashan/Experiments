@@ -4,8 +4,8 @@ import java.util.HashSet;
 
 public class AddBoldTagInString {
     public static void main(String arg[]){
-        String s ="xyzabc123";
-        String[] dic ={"xz","123"};
+        String s ="abcxyz123";
+        String[] dic ={"abc","xyz"};
         System.out.println(new AddBoldTagInString().addBoldTag(s,dic));
 
 
