@@ -4,8 +4,8 @@ import java.util.*;
 
 public class FindMedianSortedArrays {
     public static void main(String[] args) {
-    int[] a = {1,3};
-    int [] b ={};
+    int[] a = {1,3,7,9};
+    int [] b ={22,24,25,26,20,30};
         System.out.println(new FindMedianSortedArrays().findMedianSortedArrays1(a,b));
     }
     public double findMedianSortedArrays1(int[] nums1, int[] nums2) {
@@ -29,10 +29,16 @@ public class FindMedianSortedArrays {
         while(min_index<=max_index) {
             i = (min_index + max_index) / 2;
             j = ((n + m + 1) / 2) - i;
-            if (i < max_index && j > 0 && b[j - 1] > a[i])
+            if (i < max_index && j > 0 && b[j - 1] > a[i]) {
+                int A = a[i];
+                int B = b[j - 1];
                 min_index = i + 1;
-            else if (i > min_index && j < m && b[j] < a[i - 1])
+            }
+            else if (i > min_index && j < m && b[j] < a[i - 1]) {
+                int A = a[i-1];
+                int B = b[j];
                 max_index = i - 1;
+            }
             else {
                 if (i == 0)
                     median = b[j - 1];

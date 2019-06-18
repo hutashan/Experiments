@@ -6,9 +6,10 @@ import java.util.HashMap;
 
 public class MaximumSizeSubarraySum {
     public static void main(String[] args) {
-        int [] nums ={1, -1, 5, -2, 3};
+        int [] nums ={3,1, -1, 5, -2, 3,-3};
         int k =3;
-        System.out.println(new MaximumSizeSubarraySum().maxSubArrayLen(nums,k));
+        //System.out.println(new MaximumSizeSubarraySum().maxSubArrayLen(nums,k));
+        System.out.println(reverseString("hutashan"));
     }
 
 
@@ -32,5 +33,12 @@ public class MaximumSizeSubarraySum {
         }
         return max;
 
+    }
+    public static String reverseString(String str)
+    {
+        if (str.isEmpty())
+            return str;
+        //Calling Function Recursively
+        return reverseString(str.substring(1)) + str.charAt(0);
     }
 }

@@ -3,7 +3,8 @@ package F;
 public class MoveZeroes {
 
     public static void main(String[] args) {
-    int [] Input = {0,1,0,3,12};
+    int [] Input = {1,1,0,3,12};
+        new MoveZeroes().moveZeroes(Input);
     }
 
     public int [] moveZeroes(int[] nums) {
@@ -14,6 +15,9 @@ public class MoveZeroes {
         }
         while(nums.length>count){
             nums[count++]=0;
+        }
+        for(int n : nums){
+            System.out.println(n);
         }
         return nums;
 
